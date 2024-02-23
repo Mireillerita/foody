@@ -1,0 +1,225 @@
+/* GENERAL STYLES  */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  max-width: 1120px;
+}
+
+/* HEADER  */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 20px 40px 20px 40px; */
+  padding: 20px 40px;
+}
+
+@media screen and (width < 768px) {
+}
+
+@media screen and (width < 425px) {
+  header {
+    padding: 15px 10px;
+  }
+}
+
+/* FOOD LIST  */
+#food_list_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0px 40px;
+}
+
+#food_list_section #food_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#food_list div {
+  width: 24%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#food_list div h3 {
+  margin: 10px 0px;
+  line-height: 30px;
+}
+
+#food_list div p {
+  line-height: 25px;
+}
+
+#food_list div img {
+  width: 100%;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+#pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pagination_container button {
+  padding: 12px 15px;
+  border: 0px;
+  background-color: white;
+}
+
+#pagination_container #default_button {
+  background-color: black;
+  color: white;
+}
+
+#pagination_container button:hover {
+  background: black;
+  color: white;
+}
+
+@media screen and (width < 1120px) {
+  #food_list_section {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (width < 600px) {
+  #food_list div {
+    width: 100%;
+  }
+}
+
+/* ABOUT SECTION  */
+.line1 {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.about {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.tex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 0;
+}
+.head1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 0;
+  font-style: italic;
+}
+.para_container {
+  font-size: 15px;
+}
+.par2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 15px;
+}
+
+/* FOOTER SECTION  */
+
+#footer_section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#blog {
+  display: block;
+
+  flex-direction: column;
+}
+#workshop {
+  display: flex;
+}
+#gondo {
+  display: flex;
+}
+#lineb {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+}
+#h3 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#work_desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+#gond-desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+#h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20gipx;
+}
+#h5 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#hover {
+  text-underline-offset: 2px;
+}
